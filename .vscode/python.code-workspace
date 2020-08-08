@@ -30,6 +30,9 @@
         "commentTranslate.targetLanguage": "zh-CN",
         "commentTranslate.multiLineMerge": true,
 
-        "indentRainbow.excludedLanguages": ["cpp", "plaintext"]
+        "indentRainbow.excludedLanguages": [
+            "cpp",
+            "plaintext"
+        ]
     }
 }
