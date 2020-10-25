@@ -4,7 +4,7 @@ import sys
 str = "/home/tintin/Workspaces/VSCode/python/"
 if __name__ == "__main__":
     img = cv2.imread(str+"pictures/grapedisease/1/image1.JPG")
-    # cv2.imshow("Image", img)
+    cv2.imshow("Image", img)
 
     print(img.shape)  # 打印图像的高，宽，通道数（返回一个3元素的tuple）
     height = img.shape[0]  # 将tuple中的元素取出，赋值给height，width，channels
